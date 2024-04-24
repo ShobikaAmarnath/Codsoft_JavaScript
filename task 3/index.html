@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>My E-Commerce Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#" id="view-cart">Cart (0)</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Shirt</h2>
+            <p>Rs 99.99</p>
+            <button class="add-to-cart" data-id="1">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Water Bottle</h2>
+            <p>Rs 79</p>
+            <button class="add-to-cart" data-id="2">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h2>Wired Earphones</h2>
+            <p>Rs 150</p>
+            <button class="add-to-cart" data-id="3">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="product4.jpg" alt="Product 4">
+            <h2>Bluetooth Earphones</h2>
+            <p>Rs 1299.99</p>
+            <button class="add-to-cart" data-id="4">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="product5.jpg" alt="Product 5">
+            <h2>Headsets</h2>
+            <p>Rs 999</p>
+            <button class="add-to-cart" data-id="5">Add to Cart</button>
+        </section>
+
+        <section class="product">
+            <img src="product6.jpg" alt="Product 6">
+            <h2>Laptop</h2>
+            <p>Rs 30,000</p>
+            <button class="add-to-cart" data-id="6">Add to Cart</button>
+        </section>
+    </main>
+
+    <div id="cart" class="hidden">
+        <h2>Cart</h2>
+        <ul id="cart-items">
+            
+        </ul>
+        <p>Total: <span id="cart-total">Rs 0.00</span></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My E-Commerce Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

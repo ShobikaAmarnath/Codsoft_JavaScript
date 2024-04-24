@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Li-fi Technology</p>
+                <img src="https://www.researchgate.net/publication/341617619/figure/fig1/AS:895030692687888@1590403354206/Li-Fi-Data-Transmission-System-block-diagram.ppm" alt="Project 1">
+
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Smart Waste Management using IoT</p>
+                <img src="https://media.excellentwebworld.com/wp-content/uploads/2021/08/27101104/smart-waste-management-using-internet-of-things.jpg" alt="Project 2">
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Click the button below to view my resume.</p>
+            <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

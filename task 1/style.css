@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('flower.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.todo-item {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.add-todo {
+    display: flex;
+    margin-top: 20px;
+}
+.add-todo input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.add-todo button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
